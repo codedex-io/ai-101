@@ -4,7 +4,7 @@ from nltk.util import ngrams
 from collections import Counter
 nltk.download('punkt')
 sample_text = "I am learning NLP( Natural Language Processing)"
-tokens = word_tokenize(sample_text.lower())
+tokens = word_tokenize(sample_text)
 
 # Unigram
 unigrams = list(ngrams(tokens, 1))
