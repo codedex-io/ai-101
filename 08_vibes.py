@@ -7,7 +7,7 @@ from textblob import TextBlob
 # Sample movie reviews
 reviews = [
     "This movie was fantastic! Amazing, iconic",
-    "I loved it!", "Amazing storyline and great acting!",
+    "I loved it!", "Amazing story line and great acting!",
     "The plot was cringe.",
     "Loved the acting! Highly recommended."
 ]
