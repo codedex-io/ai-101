@@ -3,6 +3,7 @@ from sklearn.naive_bayes import MultinomialNB
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score
 from textblob import TextBlob
+import numpy as np
 
 # Sample movie reviews
 reviews = [
@@ -12,7 +13,7 @@ reviews = [
     "Loved the acting! Highly recommended."
 ]
 # Labels for the reviews
-labels = ["positive", "positive", "positive", "negative", "positive"]
+labels = np.array(["positive", "positive", "positive", "negative", "positive"])
 
 # (Optional) Correct any spelling mistakes in the reviews using TextBlob
 corrected_reviews = [str(TextBlob(review).correct()) for review in reviews]
