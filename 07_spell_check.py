@@ -1,3 +1,6 @@
+# Spell Check 🪄
+# Codédex
+
 from textblob import TextBlob
 text = "I love progamming and machine learnig."
 blob = TextBlob(text)
