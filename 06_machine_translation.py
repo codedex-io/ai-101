@@ -1,3 +1,6 @@
+# Machine Translation 📠
+# Codédex
+
 from translate import Translator
 
 # Create a Translator object
